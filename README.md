@@ -19,15 +19,6 @@ Exercise: A single exercise to be performed that has minReps, reps, minWeight, w
 
 LinearControl, LinearHypertrophy, LinearPower are all programs with a similar scheme.
 
-Hierarchy:
-					                Routine
-				    _______________|_________________
-				    |    	         |                |
-				SixWeekRoutine	LinearRoutine  BenchRoutine
-			     ________________|_________________	
-			     |		           |		             |
-		  LinearControl   LinearPower     LinearHypertrophy
-
 
 Download and mess around with the excel sheets on his website here: http://www.canditotraininghq.com/free-strength-programs/
 The Linear program doesn't have an excel sheet so just read the pdf for an explanation.
