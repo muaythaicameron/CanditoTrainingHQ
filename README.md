@@ -8,10 +8,15 @@ Class Hierarchy and explanation:
 CreateProgram , FAQ , MyActivity, Program, and Progress are currently homepage buttons with the basic Android button.
 
 Person: This holds the details of the person, name, age, etc as well as their max lifts and goals.
+
 Routine: Superclass of LinearRoutine, SixWeekRoutine, and BenchRoutine, holds the ArrayList<ArrayList<exercises>>
+
 LinearRoutine: This is the most basic program that Jonnie and we won't really have to worry about %s but it has 3 different types. It's a superclass to LinearControl, LinearHypertrophy, and LinearPower.
+
 SixWeekRoutine: A six week program where the weights are calculated all using 1RM, many accessory lifts in this program which is going to be the harder part to program it so that it's mutable for the user.
+
 Exercise: A single exercise to be performed that has minReps, reps, minWeight, weight, minSets, and sets. minReps, minWeight, and minSets are used for when the lifter has to use ranges. For example: The lifter needs to lift 4-8 reps at 5-10 sets. minReps would be 4 and reps would be 8. If you guys have a better idea of how to implement ranges, let me know. If there is no range, the min variables will be 0.
+
 LinearControl, LinearHypertrophy, LinearPower are all programs with a similar scheme.
 
 Hierarchy:
