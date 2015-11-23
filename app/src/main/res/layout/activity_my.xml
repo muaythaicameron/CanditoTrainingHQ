@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MyActivity">
+
+    <TextView
+        android:text="@string/first_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize = "24sp"/>
+    <TextView
+        android:text="@string/curr_bench"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="288dp"
+        android:textSize = "24sp"/>
+    <TextView
+        android:text="@string/goal_bench"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="218dp"
+        android:layout_marginTop="288dp"
+        android:textSize = "24sp"/>
+    <TextView
+        android:text="@string/curr_squat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:textSize = "24sp"/>
+    <TextView
+        android:text="@string/goal_squat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft= "218dp"
+        android:textSize = "24sp"/>
+    <TextView
+        android:text="@string/curr_dead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="372dp"
+        android:textSize = "24sp"/>
+    <TextView
+        android:text="@string/goal_dead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop= "372dp"
+        android:layout_marginLeft= "218dp"
+        android:textSize = "24sp"/>
+
+    <Button
+        android:id = "@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop = "48dp"
+        android:text= "My Progress"
+        android:textSize = "24sp"
+        android:layout_centerHorizontal="true"
+        android:onClick = "progression"
+        />
+
+    <Button
+        android:id = "@+id/program"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop = "96dp"
+        android:text= "My Program"
+        android:textSize = "24sp"
+        android:layout_centerHorizontal="true"
+        android:onClick = "myProgram"
+        />
+    <Button
+        android:id = "@+id/newProgram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop = "144dp"
+        android:text= "Create New Program"
+        android:textSize = "24sp"
+        android:layout_centerHorizontal="true"
+        android:onClick = "createProgram"
+        />
+    <Button
+        android:id = "@+id/candito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop = "192dp"
+        android:text= "Candito HQ"
+        android:textSize = "24sp"
+        android:layout_centerHorizontal="true"
+        android:onClick = "youtube"
+        />
+    <Button
+        android:id = "@+id/faq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop = "240dp"
+        android:text= "Program FAQ"
+        android:textSize = "24sp"
+        android:layout_centerHorizontal="true"
+        android:onClick = "FAQ"
+        />
+
+</RelativeLayout>
