@@ -4,7 +4,7 @@ package com.example.cameron.canditotraininghq;
  * Created by Cameron on 8/10/2015.
  */
 public class Person {
-    //String test;
+    String test;
     String fName;
     String lName;
     double bench;
