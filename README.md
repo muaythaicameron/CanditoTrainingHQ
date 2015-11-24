@@ -1,6 +1,6 @@
 # CanditoTrainingHQ
 An Android application for a specific powerlifter's program. 
-
+TODO: Create the input fields for a Person on the first startup of the application. This will allow us to do testing. We can also setup the SQLite database so that we don't have to enter in data in the fields every time.
 
 This application is an exercise based app where the user will put in their 1 rep max (1RM) in the bench, deadlift, and squat.There are also accessory exercise in the routines which need to be taken into account. Most of the programs are around 6 weeks but some are variable which is why ArrayLists are being used because they are more mutable than arrays. I've contacted the maker of the programs, Jonnie Candito to give me his formulas to calculate the weights so that we don't have to work backwards. I'm still waiting on a response. The most time consuming aspect of this will be the GUI and producing a graphical display of progress made through cycles. We will be implementing 3 programs for now but 2 more will be released in the near future.
 
